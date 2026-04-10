@@ -1,5 +1,13 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    }
+  },
+  "lsp": {},
   "provider": {
     "ollama": {
       "npm": "@ai-sdk/openai-compatible",
@@ -25,9 +33,12 @@
         },
         "qwen/qwen2.5-coder-14b": {
           "name": "qwen2.5-coder-14b"
+        },
+        "qwen/qwen3.5-9b": {
+          "name": "qwen3.5-9b"
         }
       }
     }
   },
-  "model": "qwen/qwen2.5-coder-14b"
+  "model": "qwen/qwen3.5-9b"
 }

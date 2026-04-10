@@ -1,0 +1,11 @@
+## Çalışma Protokolü
+1. Yeni bir kütüphane eklemeden önce mutlaka `context7` ile dokümantasyonu tara.
+2. Kod yazmadan önce her zaman `Thinking Process` uygula.
+3. Hata aldığında önce logları oku, sonra çözümü Context7 üzerinden doğrula.
+4. Her session sonunda, yaptığımız önemli değişiklikleri ve bir sonraki adımda yapacaklarımızı memory.md dosyasına işle.
+
+## File Purpose
+docs/context/architecture.md: Projenin genel mimarisi ve klasör yapısını açıklar.
+docs/context/api-standards.md: API yazarken uyması gereken isimlendirme kuralları (CamelCase, REST vb.).
+docs/context/dependencies.md: Kullanılan özel paketlerin neden seçildiği.
+docs/context/memory.md: Yapılan herşeyi hatırlamak ve gelecekte kullanmak için kullanılır.
