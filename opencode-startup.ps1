@@ -1,0 +1,4 @@
+# Enable all OpenCode features
+$env:OPENCODE_ENABLE_EXA = "1"
+$env:OPENCODE_EXPERIMENTAL_LSP_TOOL = "1"
+$env:OPENCODE_EXPERIMENTAL = "1"
