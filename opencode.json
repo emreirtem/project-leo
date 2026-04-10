@@ -8,11 +8,8 @@
         "baseURL": "http://localhost:11434/v1"
       },
       "models": {
-"gemma4:e2b": {
-          "name": "Gemma 4:e2b",
-          "limit": {
-            "context": 131072
-          }
+        "gemma4:e2b": {
+          "name": "Gemma 4:e2b"
         }
       }
     },
@@ -25,13 +22,12 @@
       "models": {
         "mistralai/devstral-small-2507": {
           "name": "devstral"
+        },
+        "qwen/qwen2.5-coder-14b": {
+          "name": "qwen2.5-coder-14b"
         }
       }
     }
   },
-  "model": "mistralai/devstral-small-2507",
-  "permission": {
-    "websearch": "allow",
-    "webfetch": "allow"
-  }
+  "model": "qwen/qwen2.5-coder-14b"
 }
